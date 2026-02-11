@@ -69,11 +69,6 @@ class Lugar(db.Model):
             "descripcion": self.descripcion,
         }
 
-
-# -------------------------------
-# TABLAS INTERMEDIAS CORRECTAS
-# -------------------------------
-
 class FavoritoPersonaje(db.Model):
     __tablename__ = "favorito_personaje"
 
